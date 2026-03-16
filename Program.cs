@@ -15,6 +15,10 @@
             int[] unsorted = nums.ToArray();
             Divide(unsorted,0,unsorted.Length-1);
             Console.WriteLine(string.Join(" ", unsorted));
+
+            Console.WriteLine(" Input a string to reverse the vowels");
+            string input =Console.ReadLine();
+            Console.WriteLine(vowelReverse.VowelReverse(input));
         }
 
        
